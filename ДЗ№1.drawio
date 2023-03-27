@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T19:37:06.104Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="21.1.1" etag="-d2lFOfO_E6ZJ1ylpWWu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T19:54:11.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="oP94TMi9IlfAMWBB_wkG" version="21.1.1" type="github">
   <diagram name="Страница 1" id="1vd6O8Yc5rNKaljhXU7W">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SytbfLmDQFormIdQCuU1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-1" target="SytbfLmDQFormIdQCuU1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-4" target="SytbfLmDQFormIdQCuU1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-4" value="a, b, c, d" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-6" value="Составить блок-схему нахождения&lt;br&gt;&amp;nbsp;среднего арифметического из 4-х чисел.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-7" target="SytbfLmDQFormIdQCuU1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-7" value="result = (a+b+c+d) / 4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-9" target="SytbfLmDQFormIdQCuU1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-9" value="print(result)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-11" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
