@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T19:54:11.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="oP94TMi9IlfAMWBB_wkG" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T10:06:07.123Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="ll1_Dct4NuT0PC1Lq_9K" version="21.1.1" type="github">
   <diagram name="Страница 1" id="1vd6O8Yc5rNKaljhXU7W">
     <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="30" width="120" height="80" as="geometry" />
+          <mxGeometry x="110" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-4" target="SytbfLmDQFormIdQCuU1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-4" value="a, b, c, d" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-6" value="Составить блок-схему нахождения&lt;br&gt;&amp;nbsp;среднего арифметического из 4-х чисел.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="260" height="40" as="geometry" />
@@ -23,16 +23,91 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-7" value="result = (a+b+c+d) / 4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-9" target="SytbfLmDQFormIdQCuU1-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-9" value="print(result)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="110" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SytbfLmDQFormIdQCuU1-11" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="505" width="120" height="80" as="geometry" />
+          <mxGeometry x="110" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-13" value="Составить блок-схему нахождения факториала N." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="45" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-16" target="SytbfLmDQFormIdQCuU1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-16" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-33" target="SytbfLmDQFormIdQCuU1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-18" value="factorial = 1&lt;br&gt;i = 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-20" value="factorial = factorial * i" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="567.5" y="400" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-22" target="SytbfLmDQFormIdQCuU1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-22" value="print(factorial)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-23" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-26" value="i == N" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-26" target="SytbfLmDQFormIdQCuU1-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-30" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-31" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-32" value="i = i ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-18" target="SytbfLmDQFormIdQCuU1-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="280" as="sourcePoint" />
+            <mxPoint x="635" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-33" value="input N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="SytbfLmDQFormIdQCuU1-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="460" as="sourcePoint" />
+            <mxPoint x="680" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SytbfLmDQFormIdQCuU1-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="570" as="sourcePoint" />
+            <mxPoint x="680" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SytbfLmDQFormIdQCuU1-32" target="SytbfLmDQFormIdQCuU1-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="sourcePoint" />
+            <mxPoint x="420" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SytbfLmDQFormIdQCuU1-38" value="*Решение возможно при условии, &lt;br&gt;что factorial является накопительной переменной." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="75" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
